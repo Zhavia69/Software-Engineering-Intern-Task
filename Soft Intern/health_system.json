@@ -1,0 +1,102 @@
+{
+  "clients": [
+    {
+      "client_id": "C001",
+      "name": "Samuel Ndung'u Ryan",
+      "age": "27",
+      "gender": "Male"
+    },
+    {
+      "client_id": "C002",
+      "name": "Hamiltion Wariua Mwangi ",
+      "age": "26",
+      "gender": "Male"
+    },
+    {
+      "client_id": "C003",
+      "name": "Daphine Wambui Muthoni ",
+      "age": "26",
+      "gender": "Female"
+    }
+  ],
+  "programs": [
+    {
+      "name": "TB",
+      "description": "Respiratory Illness"
+    },
+    {
+      "name": "Malaria",
+      "description": "A mosquito-borne infectious disease causing fever, fatigue, vomiting, and headaches."
+    },
+    {
+      "name": "HIV/AIDS",
+      "description": "A chronic, potentially life-threatening condition caused by the human immunodeficiency virus."
+    },
+    {
+      "name": "Tuberculosis (TB)",
+      "description": "A serious infectious disease that mainly affects the lungs."
+    },
+    {
+      "name": "Pneumonia",
+      "description": "Infection that inflames air sacs in one or both lungs, which may fill with fluid."
+    },
+    {
+      "name": "Diarrheal diseases",
+      "description": "Conditions characterized by loose, watery stools and frequent bowel movements."
+    },
+    {
+      "name": "Malnutrition",
+      "description": "Condition resulting from eating a diet lacking in nutrients or not absorbing nutrients properly."
+    },
+    {
+      "name": "Typhoid fever",
+      "description": "Bacterial infection causing high fever, abdominal pain, and headache."
+    },
+    {
+      "name": "Hypertension (High blood pressure)",
+      "description": "A condition in which the force of the blood against artery walls is too high."
+    },
+    {
+      "name": "Diabetes",
+      "description": "A metabolic disease causing high blood sugar levels over a prolonged period."
+    },
+    {
+      "name": "Respiratory infections",
+      "description": "Infections that interfere with normal breathing, affecting upper or lower respiratory tract."
+    },
+    {
+      "name": "Intestinal worms",
+      "description": "Parasitic worms that live in the human intestine and feed off the host."
+    },
+    {
+      "name": "Schistosomiasis (Bilharzia)",
+      "description": "A disease caused by parasitic worms that live in certain types of freshwater snails."
+    },
+    {
+      "name": "Dengue fever",
+      "description": "A mosquito-borne tropical disease causing severe flu-like symptoms."
+    },
+    {
+      "name": "Hepatitis B",
+      "description": "A serious liver infection caused by the hepatitis B virus."
+    }
+  ],
+  "enrollments": [
+    {
+      "client_id": "C001",
+      "program_name": "TB"
+    },
+    {
+      "client_id": "C002",
+      "program_name": "TB"
+    },
+    {
+      "client_id": "C003",
+      "program_name": "HIV/AIDS"
+    },
+    {
+      "client_id": "C001",
+      "program_name": "Diarrheal diseases"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>Client Profile: {{ client.name }}</h2>
+<div class="card">
+    <p><strong>ID:</strong> {{ client.client_id }}</p>
+    <p><strong>Age:</strong> {{ client.age }}</p>
+    <p><strong>Gender:</strong> {{ client.gender }}</p>
+    
+    <h3>Diagnosed Ailment</h3>
+    {% if enrolled_programs %}
+        <ul>
+            {% for program in enrolled_programs %}
+                <li>
+                    <strong>{{ program.name }}</strong>
+                    <p>{{ program.description }}</p>
+                </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>Not enrolled in any programs yet.</p>
+    {% endif %}
+</div>
+<a href="/">Back to Home</a>
+{% endblock %}
